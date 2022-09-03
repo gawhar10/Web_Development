@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes btn-grow {
+	0% {
+		border-radius: 16px;
+	}
+	25% {
+		border-radius: 12px;
+	}
+	50% {
+		border-radius: 8px;
+	}
+	100% {
+		border-radius: 4px;
+	}
+}
+
+body {
+	/*background: #fef7e0;*/
+	/*background: #c8ddf9;*/
+	/*background: #b7e1cd;*/
+	/*background: #fce5cd;*/
+	/*background: #8a99a6;*/
+	/*background: #556273;*/
+	/*background: #cbbeb5;*/
+	/*background: rgba(232,240,254,.6);*/
+}
+
+button {
+	/*padding: 30px 12px;*/
+	/*padding: 16px;*/
+	background: #6A736A;
+	color: #E9F2E9;
+	font-size: 20px;
+	border: none;
+	border-radius: 16px;
+	cursor: pointer;
+	font-family: 'Fira Code', monospace;
+}
+
+button:hover {
+	animation: btn-grow 0.1s linear 1 forwards;
+}
+
+.container {
+	width: 300px;
+	height: 400px;
+	background: rgba(232,240,254,.6);
+	/*background: #c8ddf9;*/
+	/*background: #fce5cd;*/
+	/*background: #b7e1cd;*/
+	/*background: #556273;*/
+	/*background: #181d26;*/
+	border: 3px solid #181d26;
+	border-radius: 3px;
+	/*background: #8a99a6;*/
+	/*background: #423f3b;*/
+	/*background: #cbbeb5;*/
+	margin: 32px auto;
+	padding: 8px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-areas: "input input input input"
+							"all-clear all-clear div mult"
+							"D-7 D-8 D-9 sub"
+							"D-4 D-5 D-6 add"
+							"D-1 D-2 D-3 equal"
+							"D-0 D-0 Dot equal";
+	grid-gap: 8px 8px;
+}
+
+.input {
+	grid-area: input;
+	font-size: 32px;
+	background: #CCD9CD;
+	text-align: end;
+	border-radius: 12px;
+	border: 6px solid #CCD9CD;
+	padding-left: 8px;
+	font-family: 'Fira Code', monospace;
+}
+
+.all-clear {
+	grid-area: all-clear;
+	background: #F2A341;
+}
+
+.div {
+	grid-area: div;
+}
+
+.mult {
+	grid-area: mult;
+}
+
+.sub {
+	grid-area: sub;
+}
+
+.add {
+	grid-area: add;
+}
+
+.equal {
+	grid-area: equal;
+	background: #5DA668;
+}
+
+.D-9 {
+	grid-area: D-9;
+}
+
+.D-8 {
+	grid-area: D-8;
+}
+
+.D-7 {
+	grid-area: D-7;
+}
+
+.D-7 {
+	grid-area: D-7;
+}
+
+.D-6 {
+	grid-area: D-6;
+}
+
+.D-5 {
+	grid-area: D-5;
+}
+
+.D-4 {
+	grid-area: D-4;
+}
+
+.D-3 {
+	grid-area: D-3;
+}
+
+.D-2 {
+	grid-area: D-2;
+}
+
+.D-1 {
+	grid-area: D-1;
+}
+
+.D-0 {
+	grid-area: D-0;
+}
+.Dot {
+	grid-area: Dot;
+}
+
+.author {
+	display: flex;
+	justify-content: center;
+	font-family: 'Fira Code', monospace;
+	font-size: 12px;
+	padding: 16px;
+	color: #5DA668;
+}
