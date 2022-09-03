@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Travel Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </header>
+    <div class="main_body">
+      <main>
+        <section>
+          <form id="survey-form">
+            <label id="name-label">Name</label><br />
+            <input type="text" name="" id="name" placeholder="Name" /><br />
+            <label id="email-label">Email</label><br />
+            <input type="email" name="" id="email" placeholder="Email" /><br />
+            <label id="number-label">Age</label><br />
+            <input
+              type="number"
+              name=""
+              id="number"
+              min="10"
+              max="99"
+              placeholder="Age"
+            /><br />
+
+            <label class="current-role"
+              >Which option best describes your current role?</label
+            ><br />
+            <select id="dropdown">
+              <option>Student</option>
+              <option>Full Time Job</option>
+              <option>Full time traveler</option>
+              <option>Prefer not to say</option>
+              <option>Others</option></select
+            ><br />
+
+            <label>Would you recommend this website to a friend?</label><br />
+            <input type="radio" name="recommend" /><label>Definitly</label
+            ><br />
+            <input type="radio" name="recommend" /><label>Maybe</label><br />
+            <input type="radio" name="recommend" /><label>Not sure</label
+            ><br /><br />
+
+            <label
+              >Where would you like to travel next? (Check all that
+              apply)</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label>Mysore</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label
+              >Amritsar</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label>Ladakh</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label
+              >Goa Beaches</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label>Delhi</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label
+              >Ellora & Ajanta Caves</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label
+              >Varanasi</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label>Kerala</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label>Agra</label
+            ><br />
+            <input type="checkbox" name="" id="" value="" /><label
+              >Rajasthan</label
+            ><br /><br /><br />
+
+            <label>Any comments or suggestions?</label><br />
+            <textarea
+              id="comment_area"
+              rows="5"
+              placeholder="Enter your comments here... "
+            ></textarea
+            ><br />
+            <button type="submit" id="submit">SUBMIT</button>
+          </form>
+        </section>
+      </main>
+      <br />
+      <footer>travel&copy2022</footer>
+    </div>
+  </body>
+</html>
