@@ -1,0 +1,295 @@
+* {
+	padding: 0;
+  	margin: 0;
+}
+
+body {
+	background: whitesmoke;
+	
+}
+
+header {
+	display: flex;
+    justify-content: space-between;
+  	position: fixed;
+  	width: 100%;
+  	top: 0;
+	background: whitesmoke;
+}
+
+#nav-bar {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.company-dis {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin-left: 50px;
+}
+
+.dis-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 75px;
+}
+
+.main-video {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 75px;
+}
+
+iframe {
+	width: 600px;
+	height: 400px;
+}
+
+.product-define {
+	display: flex;
+	align-items: center;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.price-container {
+	display: flex;
+	justify-content: center;
+}
+
+.price-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 3px solid lightgray;
+	border-radius: 4px;
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+}
+
+.price-discription {
+	text-align: center;
+	padding: 0 16px;
+}
+
+h3 {
+	background: #dcdcdc;
+	padding: 16px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	padding: 24px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.btn-div {
+	display: flex;
+  	justify-content: center;
+  	padding-bottom: 8px;
+}
+
+button {
+	padding: 8px 16px;
+	background: teal;
+	color: whitesmoke;
+	border-radius: 4px;
+	border: none;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-end;
+	background: #dcdcdc;
+	padding: 28px;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+#header-img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.company {
+	margin: 16px;
+	font-family: 'Rubik Marker Hatch', cursive;
+	font-size: 28px;
+}
+
+.fa-solid {
+	font-size: 48px;
+	padding: 24px;
+	color: teal;
+}
+
+.product-define-div {
+	padding: 24px;
+}
+
+#email {
+	width: 300px;
+	height: 24px;
+	padding: 8px;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 4px;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+
+}
+
+#submit {
+	border: none;
+	width: 192px;
+	padding: 8px;
+	margin: 24px auto;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	background: teal;
+	color: whitesmoke;
+	border-radius: 4px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+	color: teal;
+}
+
+.p-text {
+	font-family: 'Playfair Display', serif;
+}
+
+h4 {
+	
+	font-family: 'Raleway', sans-serif;
+	padding: 16px;
+	font-weight: 700;
+	font-size: 32px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	#header {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		background: whitesmoke;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+
+	}
+	#nav-bar {
+		width: 340px;
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto;
+	}
+
+	.price-container {
+		flex-direction: column;
+		margin: 0 auto;
+		width: 360px;
+		height: 1260px;
+	}
+
+	.price-box {
+		width: 332px;
+		height: 400px;
+		margin: 10px;
+	}
+	.fa-solid {
+		font-size: 24px;
+		padding: 12px;
+	}
+	.product-define {
+		display: flex;
+		align-items: center;
+		width: 360px;
+		margin: 0 auto;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+	iframe {
+		display: flex;
+		justify-content: center;
+		width: 360px;
+		height: 200px;
+		
+	}
+	footer {
+		font-size: 16px;
+		width: 360px;
+		display: flex;
+  		justify-content: center;
+	}
+	.dis-form {
+		margin: 0;
+		margin-top: 144px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 24px;
+	}
+	.company {
+		font-size: 24px;
+	}
+	a {
+		font-size: 18px;
+		font-weight: 700;
+		margin-top: 16px;
+		background: lightgray;
+		padding: 8px;
+		border-radius: 4px;
+	}
+	.company-dis {
+		width: 360px;
+		padding: 0 6px;
+		margin: 0 auto;
+	}
+	#header-img {
+		width: 20px;
+		height: 20px;		
+	}
+}
